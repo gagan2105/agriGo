@@ -6,6 +6,28 @@ AntiGravity AgriMarket is a state-of-the-art AgriTech platform designed to conne
 
 ---
 
+## 🛠️ Technology Stack
+
+Our modern enterprise AgriTech ecosystem leverages the following technologies:
+
+*   **Frontend Web**: React.js, Tailwind CSS v4, React Router, Axios, Redux Toolkit, React Query, Framer Motion
+*   **Mobile App (Planned)**: React Native
+*   **Backend Services**: FastAPI, SQLAlchemy ORM, Pydantic, Python 3.13
+*   **Authentication & Access Control**: JWT Tokens, direct `bcrypt` Role-Based Access Control (RBAC) guards
+*   **Database & Cache**: SQLite (local development), PostgreSQL (production ready), Redis caching
+*   **Storage Services**: Cloudinary (simulated cloud asset media manager)
+*   **AI/ML Engines**: 
+    *   *Random Forest Regressor* (for dynamic crop price estimations)
+    *   *Convolutional Visual Neural Simulator* (for crop leaf disease diagnostics)
+    *   *Collaborative Filtering recommendations*
+    *   *AI Chatbot Agroadvisor*
+*   **Maps & Navigation**: Haversine formula coordinates & Google Maps API
+*   **Payments Gateway**: UPI (Unified Payments Interface) Simulator
+*   **Notifications**: Firebase Cloud Messaging, Twilio SMS API, Email SMTP services
+*   **DevOps & Deployment**: Docker containers, Docker Compose, GitHub Actions (CI/CD pipeline automated checking), Render, Vercel
+
+---
+
 ## 🏗️ System Architecture
 
 ```
