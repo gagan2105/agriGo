@@ -1,0 +1,33 @@
+# Dependency directories
+node_modules/
+venv/
+.venv/
+env/
+.env/
+
+# Python cache / compile files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Build outputs
+dist/
+build/
+.next/
+
+# IDE / Editor configurations
+.vscode/
+.idea/
+*.suo
+*.ntuser
+
+# OS files
+.DS_Store
+Thumbs.db
